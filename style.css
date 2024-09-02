@@ -1,0 +1,482 @@
+body{
+    background-color: black !important;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    margin-top: 1.5rem;
+}
+.hamburger-menu {
+    width: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .bar {
+    width: 100%;
+    height: 4px;
+    background-color: #aba6a6;
+    margin: 5px 0;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+  }
+  .mobile-nav {
+    display: none;
+    background-color: #171717;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .mobile-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .mobile-nav ul li {
+    padding: 10px 0;
+    
+  }
+  .mobile-nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .bar1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+  }
+  .bar2 {
+    opacity: 0;
+  }
+  .bar3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+  }
+  .hero-section{
+    margin-top: 5rem;
+  }
+  .hero{
+    color: #CACFD7;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    font-weight: 700;
+  }
+  .heroes{
+    color: #CACFD7;
+    font-size: 1.2rem;
+    min-width: 80%;
+    max-width: 100%;
+    line-height: 1.8rem;
+    font-weight: 600;
+  }
+  .button{
+    background-color: #fd8f08;
+    height: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 20px #fd8f08;
+    transition: transform 0.3s ease;
+    color: white;
+  }
+  .button:hover {
+    transition: transform 0.3s ease;
+  }
+  .button p{
+    font-weight: 600;
+  }
+  .hero-img{
+    margin-top: 2rem;
+  }
+  .orange{
+    margin-top: 4rem;
+    width: 5rem;
+    background-color: #fd8f08;
+    height: 1.2rem;
+  }
+  main{
+    margin-top: 8rem;
+  }
+  .about-heading{
+    color: white;
+    font-size: 2rem;
+    padding-top: 3rem;
+    line-height: 2rem;
+    font-weight: 700;
+  }
+  .about-writeup{
+    color: white;
+    line-height: 2rem;
+  }
+  .mid-text-writeup p{
+    color: white;
+    text-align: center;
+    max-width: 65%;
+    margin: auto;
+    line-height: 2rem;
+    margin-top: 6rem;
+    font-size: 1rem;
+  }
+  .mid-text-writeup{
+    background-color: #000000;
+  }
+  .box {
+    background-color: #ff8c00 !important;
+    max-width: 1.8rem;
+    margin-top: 1rem;
+    padding: 5px 0;
+    animation: slowBounce 1s infinite;
+  } 
+  .box p {
+    margin: auto;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: black;
+  }
+  .boxes{
+    margin-left: 60px;
+    margin-bottom: -60px;
+  }
+  .Features{
+    margin-top: 6rem;
+  }
+  .Features h2{
+    max-width: 82%;
+    font-size: 1.7rem;
+    color: white;
+  }
+  .register p{
+    color: white;
+    max-width: 80%;
+    margin: auto;
+  }
+  .sm-box{
+    background-color: #fd8f08;
+    margin-left: 10%;
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-bottom: 2.2rem;
+  }
+  .register{
+    margin-top: 3rem !important;
+  }
+  .utilize-img{
+    margin-top: 6rem !important;
+  }
+  .utilize p{
+    max-width: 95% !important;
+    margin: auto !important;
+    font-size: 0.9rem;
+  }
+  .why-us{
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding-top: 5rem;
+    text-align: center;
+    font-weight: 5rem;
+  }
+  .advantages{
+    color: white; 
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin: auto;
+    text-align: center;
+    padding-top: 2.2rem !important;
+    width: 70%;
+  }
+  .efficiency{
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    width: 70% !important;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 2rem !important;
+  }
+  .efficiency i{
+    width: 1em;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fd8f08;
+    margin-left: 2rem;
+  }
+  .Efficiency{
+    font-weight: 600;
+    padding-top: 0.9rem !important;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+  }
+  .simplify{
+    font-weight: 200;
+    padding-top: 0.3rem;
+    font-size: 1rem;
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .asana{
+    margin-left: 2rem;
+  }
+  @keyframes slowBounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-section{
+        margin-top: 3rem;
+        display: flex;
+    }
+    .nav ul{
+        margin-left: auto;
+    }
+    .hero{
+        font-size: 3.8rem;
+        max-width: 80% !important;
+        line-height: 4.2rem;
+    }
+    .heroes{
+        font-size: 1rem;
+        min-width:20% !important;
+        max-width: 90%;
+    }
+    .button{
+        width: 45%;
+        height: 2.5rem;
+    }
+    .hero-img{
+        max-width: 70%;
+    }
+  .nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    color: white;
+    margin: 0%;
+    margin-left: auto;
+    font-size:14.5px;
+    padding: 0%;
+    align-items: center;
+  }
+  main{
+    margin-top: 4rem;
+  }
+  .about-heading{
+    font-size: 1.8rem;
+  }
+  .about-writeup{
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .mid-text-writeup{
+    display: flex;
+  }  
+  .mid-text-writeup p{
+    width: 90%;  
+    margin-top: 4rem; 
+    min-height: 10px;
+    font-size: 0.9rem; 
+    line-height: 25px;
+     }
+     
+  .box {
+    background-color: #ff8c00 !important;
+    width: 1.8rem;
+    padding: 5px 0;
+    animation: slowBounce 1s infinite;
+  } 
+  .box p {
+    margin: auto;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: black;
+  }
+    .boxes{
+        margin-left: 4rem;
+    }
+  .Features h2{
+     font-size: 1.6rem;
+     margin-bottom: 2rem;
+    }  
+  .Features div p{
+    color: white;
+    max-width: 95%;
+    margin: auto;
+  }
+  .sm-box{
+    margin-left: 3%;
+  }
+  .register{
+    margin-top: 6rem !important;
+  }
+  .utilize{
+    order: 0;
+  }
+  .utilize-img{
+    order: 1;
+  }
+  .efficiency {
+    width: 40% !important; 
+    margin: auto;
+  }
+  .organisation{
+    margin-left: -1rem;
+  }
+  .efficiency i{
+    margin: 0%;
+    padding-left: 2rem;
+  }
+  .efficiency div{
+    border-radius: 10px;
+  }
+  .simplify{
+    max-width: 13rem;
+    text-align: start;
+  }
+}
+  @media only screen and (min-width: 1024px){
+    .hero-section{
+        display: flex;
+    }
+    .hero-img img{
+        width: 24rem;
+        /* margin-left: -2rem; */
+        /* padding-top: 3rem; */
+        height: auto; 
+        max-width: none;
+    }
+    .hero{
+        font-size: 5rem;
+        line-height: 5rem;
+        max-width: 85% !important;
+    }
+    .heroes{
+        max-width: 75% !important;
+        font-size: 1.1rem;
+        font-weight: 750;
+        line-height: 1.7rem;
+    }
+    .button{
+        width: 34%;
+        height: 3.2rem;
+    }
+    .header{
+       gap: 3rem;
+    }
+    .nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+    color: white;
+    width: 20%;
+    margin: 0%;
+    font-size:14.8px;
+    align-items: center;
+    padding-left: 8rem;
+    }
+    .about-heading{
+        font-size: 1.8rem;
+    }
+    .about-writeup{
+        font-weight: 600;
+        font-size: 1.1rem;
+        width: 90%;
+    }
+    .mid-texts{
+        display: flex;
+    }
+    .mid-text-writeup p{
+       gap:8rem;
+       line-height:2rem;
+       font-size: 1.1rem;
+    }
+    .Features h2{
+        font-size: 1.9rem;
+    }
+    .register{
+      margin-top: 8rem !important;
+      padding-top: 2rem;
+    }
+    .register p{
+        font-size: 1rem;
+    }
+    .Features h2{
+        margin-bottom: 2rem;
+    }
+    .feature-img img{
+        max-width: none;
+        margin: 0%;
+        width: 70% !important;
+    }
+    .utilize{
+        order: 0;
+    }
+    .utilize-img{
+        order: 1;
+        padding-left: 4% !important;
+    }
+    .sm-box2{
+        margin: 0%;
+        margin-left:3%;
+        margin-bottom: 5%;
+    }
+    .efficiency {
+      width: 32% !important; 
+      margin: auto;
+    }
+    .efficiency i{
+      margin: 0%;
+      padding-left: 2rem;
+    }
+    .efficiency div{
+      border-radius: 10px;
+    }
+    .organisation{
+        margin-left: -12rem; 
+    }
+    .set{
+        width: 77%;
+        text-align: start;  
+    }
+    .Collaborate{
+        width: 100% !important;
+        text-align: start;  
+    }
+  }
+  @media only screen and (min-width: 1024px) and ( max-width: 1024px){  
+    .register{
+        margin-top: 3rem !important;
+    }
+    .register p{
+        font-size: 1rem;
+    }
+    .hero-img{
+        width: 40% !important;
+        margin-left: -3.5rem;
+    }
+    .why-us{
+        font-size: 1.3rem;
+    }
+    .advantages{
+        padding-top: 3.9rem !important;
+        font-size: 1.1rem;
+    }
+        
+  .efficiency {
+    width: 45% !important; 
+    margin: auto;
+  }
+  .efficiency i{
+    margin: 0%;
+    padding-left: 2rem;
+  }
+  .efficiency div{
+    border-radius: 10px;
+  }
+  }
