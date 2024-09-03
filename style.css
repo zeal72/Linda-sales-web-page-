@@ -217,10 +217,11 @@ header{
   }
   .asana{   
     margin-left: 2rem;
+    width: 20%;
   }
   .try{
     margin-top: 2.3rem !important;
-    height: 3.5rem;
+    height: 3.8rem;
     padding-top: 1rem;
     width: 62%;
     border-radius: 8px;
@@ -228,6 +229,78 @@ header{
     background-color: white;
     margin: auto;
     text-align: center;
+  }
+  .why{
+    padding-bottom:6.5rem;
+  }
+  .Testimonials{
+    margin-top: 8rem !important;
+  }
+  .testimony-heading{
+    color: #BEC1C4;
+    font-size: 1.5rem;
+    font-weight: 700;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .testimonies {
+    background-color: #0A0A0A;
+    color: white;
+    width: 75% !important;
+    margin: auto;
+    padding-top: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .Gift{
+    text-align: end;
+    padding: 0%;
+    margin: 0%;
+  }
+  .encouragement{
+    margin-top: 2rem !important;
+  }
+  .Ready{
+    color: white;
+    padding-top: 3rem !important;
+    font-weight: 700;
+    font-size: 1.7rem;
+    max-width: 80%;
+  }
+  .Receive{
+    padding-top: 1rem;
+    color: white;
+    /* max-width: 85%; */
+    font-weight: 250;
+    line-height: 2rem;
+    font-size: 1.1rem;
+  }
+  .button2{
+    background-color: #fd8f08;
+    height: 3.4rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 12rem;
+  }
+  .button2:hover {
+    transition: transform 0.3s ease;
+  }
+  .button2 p{
+    font-weight: 600;
+  }
+  .faq-heading{
+    color: white;
+    text-align: center;
+  }
+  .FAQ{
+    margin-top: 7rem;
   }
   @keyframes slowBounce {
     0%,
@@ -350,6 +423,27 @@ header{
     max-width: 13rem;
     text-align: start;
   }
+  .testimony-heading{
+    font-size: 1.4rem;
+  }
+  .testimonies{
+    width: 40% !important;
+    margin: auto;
+  }
+  .beside{
+    margin-left: -2.5rem;
+  }
+  .button2{
+    background-color: #fd8f08;
+    height: 2.8rem;
+    width: 10rem;
+  }
+  .button2 p{
+    font-size: 0.8rem;
+  }
+  .faq-heading{
+    font-size: 1.5rem;
+  }
 }
   @media only screen and (min-width: 1024px){
     .hero-section{
@@ -462,8 +556,35 @@ header{
     .try{
         width: 68%;
     }
+    .asana{
+        width: 10%;
+    }  
+    .testimony-heading{
+        font-size: 1.6rem;
+    }      
+    .testimonies{
+        width: 42% !important;
+        margin: auto;
+    }
+    .beside{
+        margin-left: -4.2rem;
+    }
+    .orange2{
+      margin-top: -3rem;  
+    }   
+    .button2{
+        background-color: #fd8f08;
+        height: 3.7rem;
+        width: 12rem;
+    }
+    .button2 p{
+        font-size: 0.8rem;
+    }
+    .faq-heading{
+        font-size: 1.6rem;
+    }
   }
-  @media only screen and (min-width: 1024px) and ( max-width: 1024px){  
+  @media only screen and (min-width: 1024px) and ( max-width: 1024px){      
     .register{
         margin-top: 3rem !important;
     }
@@ -493,4 +614,22 @@ header{
   .efficiency div{
     border-radius: 10px;
   }
+  .testimony-heading{
+    font-size: 1.6rem;
+  }
+  .asana{
+    width: 10%;
+  }
+    
+  .testimonies{
+    width: 45% !important;
+    margin: auto;
+  }
+  .beside{
+    margin-left: -1rem;
+  }
+  
+  .orange2{
+    margin-top: -1rem;  
+  }   
   }
