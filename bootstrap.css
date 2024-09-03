@@ -4597,7 +4597,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   color: var(--bs-accordion-btn-color);
   text-align: left;
-  background-color: var(--bs-accordion-btn-bg);
+  background-color: black;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -4649,7 +4649,7 @@ textarea.form-control-lg {
 .accordion-item {
   color: var(--bs-accordion-color);
   background-color: var(--bs-accordion-bg);
-  border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+  /* border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color); */
 }
 .accordion-item:first-of-type {
   border-top-left-radius: var(--bs-accordion-border-radius);

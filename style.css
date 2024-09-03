@@ -302,6 +302,25 @@ header{
   .FAQ{
     margin-top: 7rem;
   }
+  footer{
+    background-color: #171717;
+    margin-top: 8rem;
+}
+  .footer-logos i{
+   font-size: 1.5rem;
+  }
+  .footer-logos{
+    padding-top: 1rem;
+    justify-content:center;
+    gap: 2rem;
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  .footer-text{
+    font-size: 0.9rem;
+    font-weight: 200;
+    text-align: center;
+  }
   @keyframes slowBounce {
     0%,
     100% {
@@ -444,6 +463,9 @@ header{
   .faq-heading{
     font-size: 1.5rem;
   }
+  .footer-logos img{
+    width: 6% !important;
+  }
 }
   @media only screen and (min-width: 1024px){
     .hero-section{
@@ -582,6 +604,9 @@ header{
     }
     .faq-heading{
         font-size: 1.6rem;
+    } 
+    .footer-logos img{
+        /* width: 5% !important; */
     }
   }
   @media only screen and (min-width: 1024px) and ( max-width: 1024px){      

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>lindasalesPro</title>
 </head>
 <body class="container">
@@ -290,7 +291,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 d-none d-md-flex">
-                <img src="images/last-img.png" alt="" class="img-fluid">
+                <img src="images/Screenshot 2024-09-03 073523.png" alt="" class="img-fluid">
             </div>
         </div>
         <div class="orange orange2">
@@ -300,7 +301,82 @@
              <!-- ----------- -->
     <div class="FAQ">
         <h2 class="faq-heading">Frequently Asked Questions </h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What is LindaSalesPro?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">LindaSalesPro is a real estate sales and marketing tool that helps agents generate high-quality leads and effortlessly convert them into sales using its built-in sales follow-up tools.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    How much does it cost to use LindaSalesPro?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">LindaSalesPro offers free built-in sales follow-up tools for real estate agents. You only pay to obtain a verified agent badge, enabling you to start receiving leads and get matched with property seekers.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    How does LindaSalesPro help me with online marketing?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">LindaSalesPro empowers you to generate custom links for running Facebook and Instagram Lead Ads. It allows you to schedule and broadcast new property updates to all your prospects via SMS and email. Additionally, it creates an online profile for you to showcase your properties, skills, and experience, enabling interested individuals to view available properties for sale, contact you, and book property inspections.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Does LindaSalesPro help me generate free leads?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Yes. Through our agent-matching platform, we receive daily requests from individuals seeking experienced agents to assist them in selling or buying genuine properties. We then forward their contacts and requests to the top 3 agents who best match their criteria.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Do I have to pay for each lead I get from LindaSalesPro?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">No. Once you pass through our verification process to obtain our premium agent badge, you become eligible to start receiving leads. The number of leads you receive depends on factors such as your experience, the number of active sales captured on LindaSalesPro, and the volume of buyer requests in your location.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Can an agent use LindaSalesPro without being verified?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Yes. Any agent can sign up to use the built-in sales follow-up and marketing tools on LindaSalesPro to grow their real estate business. However, they won’t be able to receive leads from us until they become verified.</div>
+              </div>
+            </div>
+          </div>
     </div>
+    <footer>
+        <div class="footer-logos">
+            <i class="fab fa-linkedin-in text-white"></i>  <!-- LinkedIn Icon -->      
+            <i class="fab fa-twitter text-white"></i>      <!-- Twitter Icon -->
+            <i class="fab fa-facebook-f text-white"></i>   <!-- Facebook Icon -->
+            <i class="fab fa-instagram text-white"></i>    <!-- Instagram Icon -->  
+        </div>
+        <div class="footer-text">
+            <p class="text-white">Built With LindaSalesPro</p> 
+            <p class="text-white">Privacy Policy</p>
+            <p style="color: #94A3B8;">© 2024 LindaSalePro</p>
+        </div>
+    </footer>
         <script>
             function toggleMenu() {
 const menu = document.querySelector('.mobile-nav');
@@ -312,6 +388,34 @@ bars[0].classList.toggle('bar1');
 bars[1].classList.toggle('bar2');
 bars[2].classList.toggle('bar3');
 }
-          </script>   
+document.addEventListener("DOMContentLoaded", function () {
+    const accordionItems = document.querySelectorAll(".accordion-item");
+
+    accordionItems.forEach(item => {
+        const button = item.querySelector(".accordion-button");
+
+        button.addEventListener("click", function () {
+            // Toggle the active class
+            item.classList.toggle("active");
+
+            // Close other accordions if any
+            accordionItems.forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.classList.remove("active");
+                }
+            });
+
+            // Adjust the max-height for the content panel
+            const content = item.querySelector(".accordion-content");
+            if (item.classList.contains("active")) {
+                content.style.maxHeight = content.scrollHeight + "px";
+            } else {
+                content.style.maxHeight = 0;
+            }
+        });
+    });
+});
+
+          </script>  
+          <script src="js/bootstrap.js"></script> 
 </body>
-</html>
