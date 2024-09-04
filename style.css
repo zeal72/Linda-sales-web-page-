@@ -1,10 +1,15 @@
 body{
-    background-color: black !important;
     margin: 0%;
     padding: 0%;
+    width: 85%;
+    margin: auto !important;
 }
+
 header{
     margin-top: 1.5rem;
+}
+.logo{
+  padding-top: 0.9rem;
 }
 .hamburger-menu {
     width: 30px;
@@ -14,7 +19,7 @@ header{
   .bar {
     width: 100%;
     height: 4px;
-    background-color: #aba6a6;
+    background-color: black;
     margin: 5px 0;
     transition: 0.4s;
     display: flex;
@@ -22,7 +27,7 @@ header{
   }
   .mobile-nav {
     display: none;
-    background-color: #171717;
+    background-color: white;
     position: absolute;
     top: 50px;
     left: 0;
@@ -39,7 +44,7 @@ header{
   }
   .mobile-nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
   .bar1 {
     transform: rotate(-45deg) translate(-5px, 5px);
@@ -54,13 +59,13 @@ header{
     margin-top: 5rem;
   }
   .hero{
-    color: #CACFD7;
+    color: #4A5461;
     font-size: 2.8rem;
     line-height: 3rem;
     font-weight: 700;
   }
   .heroes{
-    color: #CACFD7;
+    color: #4A5461;
     font-size: 1.2rem;
     min-width: 80%;
     max-width: 100%;
@@ -69,7 +74,7 @@ header{
   }
   .button{
     background-color: #fd8f08;
-    height: 3rem;
+    height: 3.2rem;
     color: white;
     display: flex;
     align-items: center;
@@ -78,7 +83,6 @@ header{
     cursor: pointer;
     box-shadow: 0 4px 20px #fd8f08;
     transition: transform 0.3s ease;
-    color: white;
   }
   .button:hover {
     transition: transform 0.3s ease;
@@ -99,27 +103,30 @@ header{
     margin-top: 8rem;
   }
   .about-heading{
-    color: white;
-    font-size: 2rem;
+    color: #4A5461;
+    font-size: 1.8rem;
     padding-top: 3rem;
-    line-height: 2rem;
+    line-height: 2.1rem;
     font-weight: 700;
   }
   .about-writeup{
-    color: white;
+    color: #4A5461;
+    font-weight: 500;
     line-height: 2rem;
   }
   .mid-text-writeup p{
-    color: white;
+    color: #4A5461;
     text-align: center;
-    max-width: 65%;
     margin: auto;
     line-height: 2rem;
-    margin-top: 6rem;
-    font-size: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    /* font-size: 1rem; */
   }
   .mid-text-writeup{
-    background-color: #000000;
+    margin: auto;
+    background-color: white;
+    width: 90%;
   }
   .box {
     background-color: #ff8c00 !important;
@@ -133,10 +140,10 @@ header{
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: black;
+    background-color: white;
   }
   .boxes{
-    margin-left: 60px;
+    margin-left: 10px;
     margin-bottom: -60px;
   }
   .Features{
@@ -145,10 +152,10 @@ header{
   .Features h2{
     max-width: 82%;
     font-size: 1.7rem;
-    color: white;
+    color: #4A5461;
   }
   .register p{
-    color: white;
+    color: #4A5461;
     max-width: 80%;
     margin: auto;
   }
@@ -171,7 +178,7 @@ header{
     font-size: 0.9rem;
   }
   .why-us{
-    color: white;
+    color: #4A5461;
     width: 70%;
     margin: auto;
     padding-top: 5rem;
@@ -179,7 +186,7 @@ header{
     font-weight: 5rem;
   }
   .advantages{
-    color: white; 
+    color: #4A5461;
     font-weight: 300;
     font-size: 1.1rem;
     margin: auto;
@@ -222,11 +229,11 @@ header{
   .try{
     margin-top: 2.3rem !important;
     height: 3.8rem;
-    padding-top: 1rem;
+    padding-top: 1.2rem;
     width: 62%;
     border-radius: 8px;
-    color: rgb(73, 72, 72);
-    background-color: white;
+     color: white;
+    background-color: black;
     margin: auto;
     text-align: center;
   }
@@ -237,7 +244,7 @@ header{
     margin-top: 8rem !important;
   }
   .testimony-heading{
-    color: #BEC1C4;
+    color: #4A5461;
     font-size: 1.5rem;
     font-weight: 700;
     max-width: 80%;
@@ -245,8 +252,8 @@ header{
     text-align: center;
   }
   .testimonies {
-    background-color: #0A0A0A;
-    color: white;
+    background-color: #EEEFF1;
+    color: black;
     width: 75% !important;
     margin: auto;
     padding-top: 1.5rem;
@@ -263,7 +270,7 @@ header{
     margin-top: 2rem !important;
   }
   .Ready{
-    color: white;
+    color: #4A5461;
     padding-top: 3rem !important;
     font-weight: 700;
     font-size: 1.7rem;
@@ -271,7 +278,7 @@ header{
   }
   .Receive{
     padding-top: 1rem;
-    color: white;
+    color: #4A5461;
     /* max-width: 85%; */
     font-weight: 250;
     line-height: 2rem;
@@ -280,7 +287,7 @@ header{
   .button2{
     background-color: #fd8f08;
     height: 3.4rem;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -296,14 +303,14 @@ header{
     font-weight: 600;
   }
   .faq-heading{
-    color: white;
+    color: black;
     text-align: center;
   }
   .FAQ{
     margin-top: 7rem;
   }
   footer{
-    background-color: #171717;
+    /* background-color: #171717; */
     margin-top: 8rem;
 }
   .footer-logos i{
@@ -320,6 +327,7 @@ header{
     font-size: 0.9rem;
     font-weight: 200;
     text-align: center;
+    color: black;
   }
   @keyframes slowBounce {
     0%,
@@ -337,6 +345,7 @@ header{
     }
     .nav ul{
         margin-left: auto;
+        color: black;
     }
     .hero{
         font-size: 3.8rem;
@@ -350,16 +359,15 @@ header{
     }
     .button{
         width: 45%;
-        height: 2.5rem;
+        height: 2.9rem;
     }
     .hero-img{
-        max-width: 70%;
+        max-width: 80%;
     }
   .nav ul{
     display: flex;
     list-style-type: none;
     gap: 25px;
-    color: white;
     margin: 0%;
     margin-left: auto;
     font-size:14.5px;
@@ -378,13 +386,12 @@ header{
   }
   .mid-text-writeup{
     display: flex;
+    width: 49% !important; 
+    margin-bottom: 0.5rem; 
   }  
   .mid-text-writeup p{
-    width: 90%;  
     margin-top: 4rem; 
-    min-height: 10px;
-    font-size: 0.9rem; 
-    line-height: 25px;
+    text-align: center;
      }
      
   .box {
@@ -398,17 +405,17 @@ header{
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: black;
+    background-color: white;
   }
     .boxes{
-        margin-left: 4rem;
+        margin-left: 0.5rem;
     }
   .Features h2{
      font-size: 1.6rem;
      margin-bottom: 2rem;
     }  
   .Features div p{
-    color: white;
+    color: black;
     max-width: 95%;
     margin: auto;
   }
@@ -468,6 +475,9 @@ header{
   }
 }
   @media only screen and (min-width: 1024px){
+    .logo img {
+      width: 23% !important;
+    }
     .hero-section{
         display: flex;
     }
@@ -500,7 +510,7 @@ header{
     display: flex;
     list-style-type: none;
     gap: 3rem;
-    color: white;
+    color: black;
     width: 20%;
     margin: 0%;
     font-size:14.8px;
@@ -522,6 +532,10 @@ header{
        gap:8rem;
        line-height:2rem;
        font-size: 1.1rem;
+    }
+    .mid-text-writeup{
+      width: 49% !important; 
+      margin-bottom: 1rem; 
     }
     .Features h2{
         font-size: 1.9rem;
@@ -581,6 +595,12 @@ header{
     .asana{
         width: 10%;
     }  
+    .co-agent{
+     height: 12.2rem !important;
+    }
+    .co-agent p{
+      padding-top: 1.5rem !important;
+    }
     .testimony-heading{
         font-size: 1.6rem;
     }      
@@ -610,6 +630,18 @@ header{
     }
   }
   @media only screen and (min-width: 1024px) and ( max-width: 1024px){      
+    .Automatically{
+      padding-bottom: 3rem;
+    }
+    .mid-text-writeup{
+      display: flex;
+      width: 49% !important; 
+      margin-bottom: 1rem; 
+    }  
+    .mid-text-writeup p{
+      text-align: center;
+      }
+     
     .register{
         margin-top: 3rem !important;
     }
