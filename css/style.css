@@ -95,6 +95,10 @@ ul a{
   .button p{
     font-weight: 600;
   }
+  .button p a{
+    text-decoration: none;
+    color: white;
+  }
   .hero-img{
     margin-top: 2rem;
   }
@@ -240,7 +244,12 @@ ul a{
      color: white;
     background-color: black;
     margin: auto;
+    cursor: pointer;
     text-align: center;
+  }
+  .try p a{
+    text-decoration: none;
+    color: white;
   }
   .why{
     padding-bottom:6.5rem;
@@ -306,6 +315,10 @@ ul a{
   }
   .button2 p{
     font-weight: 600;
+  }
+  .button2 p a{
+    text-decoration: none;
+    color: white;
   }
   .faq-heading{
     color: black;
